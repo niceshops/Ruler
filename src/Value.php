@@ -31,7 +31,7 @@ class Value
      *
      * @param mixed $value Immutable value represented by this Value object
      */
-    public function __construct($value)
+    public function __construct(mixed $value)
     {
         $this->value = $value;
     }

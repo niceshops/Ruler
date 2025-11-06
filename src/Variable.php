@@ -22,8 +22,8 @@ namespace Ruler;
  */
 class Variable implements VariableOperand
 {
-    private $name;
-    private $value;
+    private ?string $name;
+    private mixed $value;
 
     /**
      * Variable class constructor.
@@ -50,7 +50,7 @@ class Variable implements VariableOperand
      *
      * @param mixed $value The default Variable value
      */
-    public function setValue($value): void
+    public function setValue(mixed $value): void
     {
         $this->value = $value;
     }
