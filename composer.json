@@ -1,5 +1,5 @@
 {
-    "name": "nicecode/ruler",
+    "name": "niceshops/ruler",
     "description": "A simple stateless production rules engine for modern PHP.",
     "keywords": ["rules", "engine"],
     "homepage": "https://github.com/bobthecow/Ruler",
